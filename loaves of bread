@@ -1,0 +1,7 @@
+n=int(input("enter the num of fresh loaves purchaced:"))
+o=int(input("enter the num of day old loaves purchaced:"))
+r=int(input("regular price of loavas:"))
+print("regular price:",r)
+print("amount of new loavas",n*r)
+print("amount of day old loavas",(r-(60/100)*185)*o)
+print("total smount",(n*r)+(r-(60/100)*185)*o)
