@@ -1,0 +1,9 @@
+time=int(input("enter time"))
+entry=[1,5,9,10]
+exit=[0,2,3,4]
+count=0
+guests=[]
+for (i == 0,i < entry, i++ )
+ count=count+entry[i]-exit[i]
+ guests.append(count)
+print(max(guests))
